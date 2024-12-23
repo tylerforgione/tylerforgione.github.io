@@ -1,0 +1,129 @@
+* {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Sans' ,sans-serif;
+}
+body {
+    background-color: palevioletred;
+}
+nav {
+    background-color: rgba(244, 244, 244, 1);
+    padding: 1rem 0;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.navbar li {
+    margin: 0 1.5rem;
+}
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+.navbar a:hover {
+    color: #0066cc;
+}
+.hero {
+    height: 100vh;
+    background-image: url('IMG_5202.JPG'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.8);
+    margin-top: 6rem;
+}
+.hero h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+section {
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.8rem;
+    border-radius: 0.8rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0.6rem 0.8rem rgba(0, 0, 0, 0.1);
+    
+}
+section h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2rem;
+}
+section p {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.text-content {
+    width: 50%;
+}
+.text-content li {
+    font-size: 1.6rem;
+    list-style: none;
+    margin-bottom: 2rem;
+}
+.text-content i {
+    font-size: 1.6rem;
+}
+.image-content {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-content img {
+    max-width: 33%;
+    border-radius: 50%;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(244, 244, 244, 0.9);
+    position: relative;
+    width: 100%;
+}
+#contact strong {
+    font-size: 1.6rem;
+}
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    text-align: center;
+}
+#contact i {
+    font-size: 4.8rem;
+    color: black;
+}
+#contact a {
+    margin-right: 2rem;
+    justify-items: center;
+}
+#projects img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
