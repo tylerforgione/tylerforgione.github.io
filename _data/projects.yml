@@ -1,0 +1,47 @@
+- title: "License Plate Recognition with YOLOv11 + CRNN"
+  area: "Computer Vision"
+  year: 2025
+  status: "Project"
+  featured: true
+  description: "Used YOLOv11 to detect license plates in cluttered street scenes and then trained a bidirectional LSTM to read the license plate characters."
+  methods: ["PyTorch", "YOLOv11", "CRNN", "CTC", "OpenCV"]
+  links:
+    code: "https://github.com/tylerforgione/alpr"
+    demo: null
+    paper: null
+
+- title: "Pointwise Mutual Information Word Co-occurrence Matrix"
+  area: "NLP"
+  year: 2025
+  status: "Project"
+  featured: true
+  description: "Implemented Latent Semantic Analysis from scratch by computing pointwise mutual information on a word co-occurence matrix and then performing singular value decomposition."
+  methods: ["Python", "Sparse Matrices", "PMI", "SVD"]
+  links:
+    code: "https://github.com/tylerforgione/PointwiseMutualInfo"
+    demo: null
+    paper: null
+
+- title: "Pitch-by-pitch MLB Database + Analysis"
+  area: "Data Engineering / Analytics"
+  year: 2025
+  status: "Project"
+  featured: false
+  description: "Local PostgreSQL pipeline for MLB pitch-level data with queryable analysis workflows."
+  methods: ["PostgreSQL", "Python", "ETL", "SQL"]
+  links:
+    code: "https://github.com/tylerforgione"
+    demo: null
+    paper: null
+
+- title: "Toy Programming Language (OCaml)"
+  area: "Programming Languages"
+  year: 2025
+  status: "In progress"
+  featured: false
+  description: "Parser + type inference experiments (substitution, unification, evaluators) in a small functional language."
+  methods: ["OCaml", "Parsing", "Type Inference"]
+  links:
+    code: "https://github.com/tylerforgione"
+    demo: null
+    paper: null

@@ -1,0 +1,28 @@
+{% assign p = include.project %}
+<div class="{% if include.compact %}hr{% endif %}"></div>
+<div class="card">
+  <h3>{{ p.title }}</h3>
+  <div class="meta-row">
+    <span><strong>Area:</strong> {{ p.area }}</span>
+    {% if p.year %}<span><strong>Year:</strong> {{ p.year }}</span>{% endif %}
+    {% if p.status %}<span><strong>Status:</strong> {{ p.status }}</span>{% endif %}
+  </div>
+
+  {% if p.description %}
+    <p style="margin-top:10px;">{{ p.description }}</p>
+  {% endif %}
+
+  {% if p.methods and p.methods.size > 0 %}
+    <div class="tags">
+      {% for t in p.methods %}
+        <span class="tag">{{ t }}</span>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <div class="links">
+    {% if p.links.code %}<a class="pill" href="{{ p.links.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
+    {% if p.links.demo %}<a class="pill" href="{{ p.links.demo }}" target="_blank" rel="noopener">Demo</a>{% endif %}
+    {% if p.links.paper %}<a class="pill" href="{{ p.links.paper }}" target="_blank" rel="noopener">Write-up</a>{% endif %}
+  </div>
+</div>

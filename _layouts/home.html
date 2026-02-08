@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<div class="hero">
+  <div class="hero-top">
+    <div class="hero-content">
+      <div class="kicker">Personal academic portfolio</div>
+      <h1>{{ site.title }}</h1>
+      <p class="subtitle">{{ site.description }}</p>
+
+      <p>
+        Hello! My name is Tyler and I'm a Computer Science student at McGill University from Montréal, QC. I have previously
+        completed a degree in Honours Psychology, also at McGill. Most of my interest lies in Machine Learning: Computer Vision and Natural Language Processing mostly.
+        Along with that, I love to work with sports analytics/statistics; though mostly baseball and hockey.
+      </p>
+
+      <div class="actions">
+        <a class="btn primary" href="{{ '/cv/' | relative_url }}">CV</a>
+        <a class="btn" href="{{ '/papers/' | relative_url }}">Papers</a>
+        <a class="btn ghost" href="https://github.com/tylerforgione" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true"></div>
+  </div>
+</div>
+
+<section class="section">
+  <h2>Featured</h2>
+
+  <div class="card">
+    <h3>Projects</h3>
+    <p class="muted">A few of my recent projects and papers. See the full list on the Projects page.</p>
+    {% assign featured_projects = site.data.projects | where: "featured", true %}
+    {% if featured_projects.size > 0 %}
+      {% for proj in featured_projects limit: 2 %}
+        {% include project_card.html project=proj compact=true %}
+      {% endfor %}
+    {% else %}
+      <p>Add <span class="tag">featured: true</span> to any project in <span class="tag">_data/projects.yml</span>.</p>
+    {% endif %}
+    <div class="links">
+      <a class="pill" href="{{ '/projects/' | relative_url }}">View all projects</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Papers</h3>
+    <p class="muted">You can see all my papers in the Papers page!</p>
+    {% for paper in site.data.papers limit: 2 %}
+      {% include paper_entry.html paper=paper %}
+    {% endfor %}
+    <div class="links">
+      <a class="pill" href="{{ '/papers/' | relative_url }}">View all papers</a>
+    </div>
+  </div>
+</section>

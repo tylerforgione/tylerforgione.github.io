@@ -1,0 +1,25 @@
+{% assign w = include.paper %}
+<div class="card">
+  <h3>{{ w.title }}</h3>
+  <div class="meta-row">
+    {% if w.authors %}<span><strong>Authors:</strong> {{ w.authors }}</span>{% endif %}
+    {% if w.year %}<span><strong>Year:</strong> {{ w.year }}</span>{% endif %}
+    {% if w.status %}<span><strong>Status:</strong> {{ w.status }}</span>{% endif %}
+  </div>
+
+  <div class="links">
+    {% if w.pdf %}
+      <a class="pill" href="{{ w.pdf | relative_url }}" target="_blank" rel="noopener">Read PDF</a>
+    {% endif %}
+    {% if w.link %}
+      <a class="pill" href="{{ w.link }}" target="_blank" rel="noopener">External</a>
+    {% endif %}
+  </div>
+
+  {% if w.abstract %}
+    <details>
+      <summary>Abstract</summary>
+      <p>{{ w.abstract }}</p>
+    </details>
+  {% endif %}
+</div>

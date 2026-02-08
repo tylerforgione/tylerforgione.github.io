@@ -1,0 +1,21 @@
+- title: "Automated License Plate Recognition with Optical Character Recongition"
+  authors: "Tyler Forgione"
+  year: 2026
+  status: "Completed"
+  pdf: "/assets/pdfs/ALPR.pdf"
+  abstract: "In this project, two models were trained and combined: an automated license plate recognition model and an optical character recognition model. The license plate recognition model was trained on over 7000 images of street scenes containing zero or more license plates. This model was then used to find license plates in a dataset with images containing one or more license plates. Finally, these images were used to train a character recognition model used to read the license plates."
+
+- title: "Latent Semantic Analysis"
+  authors: "Tyler Forgione"
+  year: 2025
+  status: "Completed"
+  pdf: "/assets/pdfs/LSA.pdf"
+  abstract: "In this project, a Latent Semantic Analysis model was trained on Wikitext-103, a dataset of over 100 million tokens. The model only kept words that were used at least 25 times and was projected onto a 300 dimension latent space. It was then tested on numerous word-similarity and analogy tests and performed relatively well given the training corpus size as well as the minimum count set in the vocabulary. In the future, this model will be compared to simpler and more complex models in order to get a benchmark for semantic models."
+
+# Uncomment if you end up adding a third
+# - title: "Paper Title #3"
+#   authors: "Tyler Forgione"
+#   year: 2026
+#   status: "Draft"
+#   pdf: "/assets/pdfs/paper3.pdf"
+#   abstract: "Abstract placeholder."

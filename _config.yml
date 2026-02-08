@@ -1,0 +1,26 @@
+title: "Tyler Forgione"
+description: "Computer Science & Psychology @ McGill. ML · NLP · Computer Vision · Systems."
+url: "https://tylerforgione.github.io"
+baseurl: ""
+
+markdown: kramdown
+
+# GitHub Pages supports these plugins automatically
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Keep URLs clean
+permalink: pretty
+
+# Optional: show future-dated posts if you add a blog later
+future: false
+
+# Where your data lives
+collections: {}
+
+# Sass
+sass:
+  sass_dir: assets/css
+  style: compressed
