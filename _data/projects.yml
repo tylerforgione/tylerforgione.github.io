@@ -1,6 +1,6 @@
 - title: "License Plate Recognition with YOLOv11 + CRNN"
   area: "Computer Vision"
-  year: 2025
+  year: 2026
   status: "Project"
   featured: true
   description: "Used YOLOv11 to detect license plates in cluttered street scenes and then trained a bidirectional LSTM to read the license plate characters."
@@ -22,15 +22,15 @@
     demo: null
     paper: null
 
-- title: "Pitch-by-pitch MLB Database + Analysis"
-  area: "Data Engineering / Analytics"
+- title: "YouTube Thumbnail Blender"
+  area: "Computer Vision"
   year: 2025
   status: "Project"
   featured: false
-  description: "Local PostgreSQL pipeline for MLB pitch-level data with queryable analysis workflows."
-  methods: ["PostgreSQL", "Python", "ETL", "SQL"]
+  description: "Simple script that, when passed a YouTube channel ID, computes the pverlap of all the thumbnails. Uses alignment if user so chooses."
+  methods: ["Python", "CV2"]
   links:
-    code: "https://github.com/tylerforgione"
+    code: "https://github.com/tylerforgione/thumbnail-blend"
     demo: null
     paper: null
 
@@ -42,6 +42,6 @@
   description: "Parser + type inference experiments (substitution, unification, evaluators) in a small functional language."
   methods: ["OCaml", "Parsing", "Type Inference"]
   links:
-    code: "https://github.com/tylerforgione"
+    code: "https://github.com/tylerforgione/toy_language"
     demo: null
     paper: null
