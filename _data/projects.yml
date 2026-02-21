@@ -34,14 +34,14 @@
     demo: null
     paper: null
 
-- title: "Toy Programming Language (OCaml)"
-  area: "Programming Languages"
-  year: 2025
+- title: "Raytracer (Jamis Buck Book)"
+  area: "Raytracer"
+  year: 2026
   status: "In progress"
   featured: false
-  description: "Parser + type inference experiments (substitution, unification, evaluators) in a small functional language."
-  methods: ["OCaml", "Parsing", "Type Inference"]
+  description: 'Jamis Buck''s "The Raytracer Challenge" done in Rust'
+  methods: ["Rust"]
   links:
-    code: "https://github.com/tylerforgione/toy_language"
+    code: "https://github.com/tylerforgione/raytracer"
     demo: null
     paper: null
