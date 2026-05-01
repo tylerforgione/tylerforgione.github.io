@@ -17,4 +17,4 @@
   year: 2026
   status: "Completed"
   pdf: "/assets/pdfs/xG.pdf"
-  abstract: "Abstract placeholder."
+  abstract: "Expected goals, as an advanced analytic, is typically based on prior distributions of shots taken at similar loca- tions. Why not try to improve this by using other readily available shot data? This paper looks at how to model xG using public data exposed by the NHL API and which features are most valuable in this effort."
