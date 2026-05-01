@@ -12,10 +12,9 @@
   pdf: "/assets/pdfs/LSA.pdf"
   abstract: "In this project, a Latent Semantic Analysis model was trained on Wikitext-103, a dataset of over 100 million tokens. The model only kept words that were used at least 25 times and was projected onto a 300 dimension latent space. It was then tested on numerous word-similarity and analogy tests and performed relatively well given the training corpus size as well as the minimum count set in the vocabulary. In the future, this model will be compared to simpler and more complex models in order to get a benchmark for semantic models."
 
-# Uncomment if you end up adding a third
-# - title: "Paper Title #3"
-#   authors: "Tyler Forgione"
-#   year: 2026
-#   status: "Draft"
-#   pdf: "/assets/pdfs/paper3.pdf"
-#   abstract: "Abstract placeholder."
+- title: "Modeling Expected Goals in NHL Hockey Using Public Play-by-Play Data"
+  authors: "Tyler Forgione"
+  year: 2026
+  status: "Completed"
+  pdf: "/assets/pdfs/xG.pdf"
+  abstract: "Abstract placeholder."

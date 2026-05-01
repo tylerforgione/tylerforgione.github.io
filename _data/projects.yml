@@ -1,7 +1,7 @@
 - title: "License Plate Recognition with YOLOv11 + CRNN"
   area: "Computer Vision"
   year: 2026
-  status: "Project"
+  status: "Completed"
   featured: true
   description: "Used YOLOv11 to detect license plates in cluttered street scenes and then trained a bidirectional LSTM to read the license plate characters."
   methods: ["PyTorch", "YOLOv11", "CRNN", "CTC", "OpenCV"]
@@ -10,15 +10,27 @@
     demo: null
     paper: null
 
-- title: "Pointwise Mutual Information Word Co-occurrence Matrix"
+- title: "Latent Semantic Analysis"
   area: "NLP"
   year: 2025
-  status: "Project"
+  status: "Completed"
   featured: true
   description: "Implemented Latent Semantic Analysis from scratch by computing pointwise mutual information on a word co-occurence matrix and then performing singular value decomposition."
   methods: ["Python", "Sparse Matrices", "PMI", "SVD"]
   links:
     code: "https://github.com/tylerforgione/PointwiseMutualInfo"
+    demo: null
+    paper: null
+
+- title: "Modeling Expected Goals in NHL Hockey Using Public Play-by-Play Data "
+  area: "Statistics & Analytics"
+  year: 2026
+  status: "Completed"
+  featured: true
+  description: "Training a Histogram-based Gradient Boosting classifier to model expected goals in the past 3 seasons of NHL hockey."
+  methods: ["Python, Numpy, Pandas, nhlpy"]
+  links:
+    code: "https://github.com/tylerforgione/xg"
     demo: null
     paper: null
 
@@ -35,7 +47,7 @@
     paper: null
 
 - title: "Raytracer (Jamis Buck Book)"
-  area: "Raytracer"
+  area: "Graphics"
   year: 2026
   status: "In progress"
   featured: false
