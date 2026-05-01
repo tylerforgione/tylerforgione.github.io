@@ -28,7 +28,7 @@
   status: "Completed"
   featured: true
   description: "Training a Histogram-based Gradient Boosting classifier to model expected goals in the past 3 seasons of NHL hockey."
-  methods: ["Python, Numpy, Pandas, nhlpy"]
+  methods: ["Python", "Numpy", "Pandas", "nhlpy"]
   links:
     code: "https://github.com/tylerforgione/xg"
     demo: null

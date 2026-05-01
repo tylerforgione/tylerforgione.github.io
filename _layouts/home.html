@@ -32,7 +32,7 @@ layout: default
     <p class="muted">A few of my recent projects and papers. See the full list on the Projects page.</p>
     {% assign featured_projects = site.data.projects | where: "featured", true %}
     {% if featured_projects.size > 0 %}
-      {% for proj in featured_projects limit: 2 %}
+      {% for proj in featured_projects limit: 3 %}
         {% include project_card.html project=proj compact=true %}
       {% endfor %}
     {% else %}
@@ -46,7 +46,7 @@ layout: default
   <div class="card">
     <h3>Papers</h3>
     <p class="muted">You can see all my papers in the Papers page!</p>
-    {% for paper in site.data.papers limit: 2 %}
+    {% for paper in site.data.papers limit: 3 %}
       {% include paper_entry.html paper=paper %}
     {% endfor %}
     <div class="links">
