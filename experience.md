@@ -26,3 +26,13 @@ subtitle: "Research and Work"
     <li>Worked with children with special needs at a day camp during August of 2023.</li>
   </ul>
 </div>
+
+<div class="card">
+  <h3>Full Stack Developer Intern - Spartakus Technologies</h3>
+  <div class="meta-row">
+    <span><strong>Dates:</strong> May 2026 -</span>
+  </div>
+  <ul>
+    <li></li>
+  </ul>
+</div>
