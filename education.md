@@ -28,14 +28,14 @@ subtitle: "Academic background and selected coursework."
     <span class="tag">MATH222 - Calculus 3</span>
     <span class="tag">MATH240 - Discrete Structures</span>
     <span class="tag">MATH323 - Probability</span>
+    <span class="tag">COMP330 - Theory of Computation</span>
+    <span class="tag">COMP520 - Compiler Design</span>
+    <span class="tag">COMP550 - Natural Language Processing</span>
+    <span class="tag">COMP559 - Computer Animation</span>
   </div>
 
   <h3 style="margin-top:18px;">Ongoing Courses</h3>
 
   <div class="tags">
-    <span class="tag">COMP330 - Theory of Computation</span>
-    <span class="tag">COMP520 - Compiler Design</span>
-    <span class="tag">COMP550 - Natural Language Processing</span>
-    <span class="tag">COMP559 - Computer Animation</span>
   </div>
 </div>
